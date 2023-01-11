@@ -23,7 +23,7 @@ public class Shape {
         return Perimeter;
     }
     public double longestSide(){
-        double max=Double.MIN_VALUE;
+        double max=0;
         for( int i=0; i<points.size();i++){
             int j=i+1;
             if (j == points.size()) {
